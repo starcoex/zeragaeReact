@@ -1,17 +1,13 @@
 import React, { useState } from "react";
-import styled from "styled-components";
+import GlobalStyle from "./styles/GlobalStyle";
+import Router from "./routes/Router";
 
 function App() {
-  const Container = styled.div`
-    background-color: ${(props) => props.theme.bgColor};
-  `;
-  const H1 = styled.h1`
-    color: ${(props) => props.theme.textColor};
-  `;
   return (
-    <Container>
-      <H1>Protected</H1>
-    </Container>
+    <React.Fragment>
+      <GlobalStyle />
+      <Router></Router>
+    </React.Fragment>
   );
 }
 
