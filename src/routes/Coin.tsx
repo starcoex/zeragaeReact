@@ -36,6 +36,7 @@ const OverviewItem = styled.div`
 display: flex;
 flex-direction:column;
 align-items:center;
+width:33%;
 span:first-child{
 font-size:12px;
 font-weight:400;
