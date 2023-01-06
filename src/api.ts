@@ -13,6 +13,3 @@ export function fetchCoinTickers(coinId: string) {
 		response.json()
 	);
 }
-
-// const response = await fetch('https://api.coinpaprika.com/v1/coins');
-// return await response.json();  비동기 방식
